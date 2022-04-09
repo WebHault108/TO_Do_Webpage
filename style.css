@@ -65,7 +65,7 @@ button {
     color: var(--pink);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(to right, rgb(34, 255, 34), rgb(255, 255, 29));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -147,11 +147,11 @@ main {
 }
 
 .task .actions .edit {
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(to right, rgb(34, 255, 34), rgb(255, 255, 29));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .task .actions .delete {
-    color: crimson;
+    color: rgb(20, 220, 210);
 }
